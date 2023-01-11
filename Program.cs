@@ -1,20 +1,21 @@
-﻿int[] arrey = { 1, 12, 31, 4, 15, 16, 17, 18};
+﻿int[] arrey = { 1, 2, 3, 4, 5, 6, 7, 8 };
 
-int n = arrey.Lenght;
-int find = 4;
+int n = arrey.Length;
+int find = 5;
 
 int index = 0;
 
-while (index < n);
+while (index < n)
 {
 
     if(arrey[index] == find)
     {
         Console.WriteLine(index);
     }
-    //index = + 1;
+    //index = index + 1;
     index++;
 }
+
 
 
 
